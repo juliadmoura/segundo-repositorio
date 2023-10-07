@@ -1,36 +1,22 @@
-
-body{
+body {
     margin: 0;
 }
 
 .header {
-    border-bottom: 10px solid chocolate;
+    border-bottom: 3px solid chocolate;
     margin: 0px 0px 3px 0px;
-    background-color: #000000;
+    background-color: black;
 
 }
 
-.header .container li a{
-    color: chocolate;
-    text-decoration: none;
-}
-
-
-.header .container {
+.header .container  {
     width: 80%;
-    margin:auto;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header ul{
-    width: 400px;
-    color: chocolate;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
 
-}
 .header .container ul {
     width: 400px;
     list-style: none;
@@ -38,7 +24,6 @@ body{
     justify-content: space-between;
     color: chocolate;
     font-weight: bold;
-    
     
 }
 
@@ -49,7 +34,7 @@ body{
 }
 
 .header h1 {
-    color: #3b3be0;
+    color: rgb(59, 59, 224);
     font-weight: bold;
 }
 
@@ -67,7 +52,6 @@ body{
 
 .banner .container {
     justify-content: center;
-    
     align-items: center;
     height: 470px;
 }
@@ -89,9 +73,7 @@ body{
 }
 
 .social .container .boxes {
-    width: auto;
     display: flex;
-    background-color: darkkhaki;
     justify-content:space-evenly;
     justify-items: center;
     
@@ -136,8 +118,8 @@ body{
 .card{
     width: 350px;
     height: 400px;
-    background-color: rgba(45, 23, 168, 0.815);
-    border-radius: 10px;
+    background-color: rgba(11, 1, 71, 0.541);
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
